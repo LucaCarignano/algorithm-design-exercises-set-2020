@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="util.unittest.SelectionSortLargeArraysTest" time="15.764" tests="200" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.222-b10"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/luca/Escritorio/test/algorithm-design-exercises-set-2020/exercise-set-1/ArraySorter"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="AR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/luca/Escritorio/test/algorithm-design-exercises-set-2020/exercise-set-1/ArraySorter"/>
+    <property name="java.runtime.version" value="1.8.0_222-8u222-b10-1ubuntu1~16.04.1-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.10.0-38-generic"/>
+    <property name="user.home" value="/home/luca"/>
+    <property name="user.timezone" value="America/Argentina/Cordoba"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="luca"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_222"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="selectionSortSortsCorrectly[0]" classname="util.unittest.SelectionSortLargeArraysTest" time="0"/>
+  <testcase name="selectionSortLeavesArraySorted[0]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.001"/>
+  <testcase name="selectionSortSortsCorrectly[1]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.003"/>
+  <testcase name="selectionSortLeavesArraySorted[1]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.002"/>
+  <testcase name="selectionSortSortsCorrectly[2]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.009"/>
+  <testcase name="selectionSortLeavesArraySorted[2]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.007"/>
+  <testcase name="selectionSortSortsCorrectly[3]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.008"/>
+  <testcase name="selectionSortLeavesArraySorted[3]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.003"/>
+  <testcase name="selectionSortSortsCorrectly[4]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.007"/>
+  <testcase name="selectionSortLeavesArraySorted[4]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.005"/>
+  <testcase name="selectionSortSortsCorrectly[5]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.01"/>
+  <testcase name="selectionSortLeavesArraySorted[5]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.02"/>
+  <testcase name="selectionSortSortsCorrectly[6]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.015"/>
+  <testcase name="selectionSortLeavesArraySorted[6]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.064"/>
+  <testcase name="selectionSortSortsCorrectly[7]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.052"/>
+  <testcase name="selectionSortLeavesArraySorted[7]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.002"/>
+  <testcase name="selectionSortSortsCorrectly[8]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.006"/>
+  <testcase name="selectionSortLeavesArraySorted[8]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.003"/>
+  <testcase name="selectionSortSortsCorrectly[9]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.008"/>
+  <testcase name="selectionSortLeavesArraySorted[9]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.003"/>
+  <testcase name="selectionSortSortsCorrectly[10]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.008"/>
+  <testcase name="selectionSortLeavesArraySorted[10]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.007"/>
+  <testcase name="selectionSortSortsCorrectly[11]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.008"/>
+  <testcase name="selectionSortLeavesArraySorted[11]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.003"/>
+  <testcase name="selectionSortSortsCorrectly[12]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.009"/>
+  <testcase name="selectionSortLeavesArraySorted[12]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.004"/>
+  <testcase name="selectionSortSortsCorrectly[13]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.01"/>
+  <testcase name="selectionSortLeavesArraySorted[13]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.005"/>
+  <testcase name="selectionSortSortsCorrectly[14]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.027"/>
+  <testcase name="selectionSortLeavesArraySorted[14]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.005"/>
+  <testcase name="selectionSortSortsCorrectly[15]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.018"/>
+  <testcase name="selectionSortLeavesArraySorted[15]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.001"/>
+  <testcase name="selectionSortSortsCorrectly[16]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.01"/>
+  <testcase name="selectionSortLeavesArraySorted[16]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.008"/>
+  <testcase name="selectionSortSortsCorrectly[17]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.009"/>
+  <testcase name="selectionSortLeavesArraySorted[17]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.006"/>
+  <testcase name="selectionSortSortsCorrectly[18]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.012"/>
+  <testcase name="selectionSortLeavesArraySorted[18]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.008"/>
+  <testcase name="selectionSortSortsCorrectly[19]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.015"/>
+  <testcase name="selectionSortLeavesArraySorted[19]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.009"/>
+  <testcase name="selectionSortSortsCorrectly[20]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.021"/>
+  <testcase name="selectionSortLeavesArraySorted[20]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.012"/>
+  <testcase name="selectionSortSortsCorrectly[21]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.018"/>
+  <testcase name="selectionSortLeavesArraySorted[21]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.014"/>
+  <testcase name="selectionSortSortsCorrectly[22]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.022"/>
+  <testcase name="selectionSortLeavesArraySorted[22]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.012"/>
+  <testcase name="selectionSortSortsCorrectly[23]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.024"/>
+  <testcase name="selectionSortLeavesArraySorted[23]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.014"/>
+  <testcase name="selectionSortSortsCorrectly[24]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.021"/>
+  <testcase name="selectionSortLeavesArraySorted[24]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.017"/>
+  <testcase name="selectionSortSortsCorrectly[25]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.015"/>
+  <testcase name="selectionSortLeavesArraySorted[25]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.02"/>
+  <testcase name="selectionSortSortsCorrectly[26]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.023"/>
+  <testcase name="selectionSortLeavesArraySorted[26]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.016"/>
+  <testcase name="selectionSortSortsCorrectly[27]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.026"/>
+  <testcase name="selectionSortLeavesArraySorted[27]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.022"/>
+  <testcase name="selectionSortSortsCorrectly[28]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.031"/>
+  <testcase name="selectionSortLeavesArraySorted[28]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.025"/>
+  <testcase name="selectionSortSortsCorrectly[29]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.032"/>
+  <testcase name="selectionSortLeavesArraySorted[29]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.022"/>
+  <testcase name="selectionSortSortsCorrectly[30]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.046"/>
+  <testcase name="selectionSortLeavesArraySorted[30]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.016"/>
+  <testcase name="selectionSortSortsCorrectly[31]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.042"/>
+  <testcase name="selectionSortLeavesArraySorted[31]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.026"/>
+  <testcase name="selectionSortSortsCorrectly[32]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.041"/>
+  <testcase name="selectionSortLeavesArraySorted[32]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.026"/>
+  <testcase name="selectionSortSortsCorrectly[33]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.046"/>
+  <testcase name="selectionSortLeavesArraySorted[33]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.032"/>
+  <testcase name="selectionSortSortsCorrectly[34]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.054"/>
+  <testcase name="selectionSortLeavesArraySorted[34]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.034"/>
+  <testcase name="selectionSortSortsCorrectly[35]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.055"/>
+  <testcase name="selectionSortLeavesArraySorted[35]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.035"/>
+  <testcase name="selectionSortSortsCorrectly[36]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.052"/>
+  <testcase name="selectionSortLeavesArraySorted[36]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.035"/>
+  <testcase name="selectionSortSortsCorrectly[37]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.061"/>
+  <testcase name="selectionSortLeavesArraySorted[37]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.037"/>
+  <testcase name="selectionSortSortsCorrectly[38]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.055"/>
+  <testcase name="selectionSortLeavesArraySorted[38]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.04"/>
+  <testcase name="selectionSortSortsCorrectly[39]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.054"/>
+  <testcase name="selectionSortLeavesArraySorted[39]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.038"/>
+  <testcase name="selectionSortSortsCorrectly[40]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.06"/>
+  <testcase name="selectionSortLeavesArraySorted[40]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.043"/>
+  <testcase name="selectionSortSortsCorrectly[41]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.067"/>
+  <testcase name="selectionSortLeavesArraySorted[41]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.042"/>
+  <testcase name="selectionSortSortsCorrectly[42]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.069"/>
+  <testcase name="selectionSortLeavesArraySorted[42]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.045"/>
+  <testcase name="selectionSortSortsCorrectly[43]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.05"/>
+  <testcase name="selectionSortLeavesArraySorted[43]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.048"/>
+  <testcase name="selectionSortSortsCorrectly[44]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.051"/>
+  <testcase name="selectionSortLeavesArraySorted[44]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.045"/>
+  <testcase name="selectionSortSortsCorrectly[45]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.06"/>
+  <testcase name="selectionSortLeavesArraySorted[45]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.056"/>
+  <testcase name="selectionSortSortsCorrectly[46]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.056"/>
+  <testcase name="selectionSortLeavesArraySorted[46]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.045"/>
+  <testcase name="selectionSortSortsCorrectly[47]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.062"/>
+  <testcase name="selectionSortLeavesArraySorted[47]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.077"/>
+  <testcase name="selectionSortSortsCorrectly[48]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.161"/>
+  <testcase name="selectionSortLeavesArraySorted[48]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.053"/>
+  <testcase name="selectionSortSortsCorrectly[49]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.066"/>
+  <testcase name="selectionSortLeavesArraySorted[49]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.054"/>
+  <testcase name="selectionSortSortsCorrectly[50]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.064"/>
+  <testcase name="selectionSortLeavesArraySorted[50]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.052"/>
+  <testcase name="selectionSortSortsCorrectly[51]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.065"/>
+  <testcase name="selectionSortLeavesArraySorted[51]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.064"/>
+  <testcase name="selectionSortSortsCorrectly[52]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.071"/>
+  <testcase name="selectionSortLeavesArraySorted[52]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.058"/>
+  <testcase name="selectionSortSortsCorrectly[53]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.067"/>
+  <testcase name="selectionSortLeavesArraySorted[53]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.059"/>
+  <testcase name="selectionSortSortsCorrectly[54]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.071"/>
+  <testcase name="selectionSortLeavesArraySorted[54]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.069"/>
+  <testcase name="selectionSortSortsCorrectly[55]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.065"/>
+  <testcase name="selectionSortLeavesArraySorted[55]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.067"/>
+  <testcase name="selectionSortSortsCorrectly[56]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.072"/>
+  <testcase name="selectionSortLeavesArraySorted[56]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.074"/>
+  <testcase name="selectionSortSortsCorrectly[57]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.095"/>
+  <testcase name="selectionSortLeavesArraySorted[57]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.079"/>
+  <testcase name="selectionSortSortsCorrectly[58]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.071"/>
+  <testcase name="selectionSortLeavesArraySorted[58]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.078"/>
+  <testcase name="selectionSortSortsCorrectly[59]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.08"/>
+  <testcase name="selectionSortLeavesArraySorted[59]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.074"/>
+  <testcase name="selectionSortSortsCorrectly[60]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.095"/>
+  <testcase name="selectionSortLeavesArraySorted[60]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.082"/>
+  <testcase name="selectionSortSortsCorrectly[61]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.106"/>
+  <testcase name="selectionSortLeavesArraySorted[61]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.081"/>
+  <testcase name="selectionSortSortsCorrectly[62]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.113"/>
+  <testcase name="selectionSortLeavesArraySorted[62]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.089"/>
+  <testcase name="selectionSortSortsCorrectly[63]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.094"/>
+  <testcase name="selectionSortLeavesArraySorted[63]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.085"/>
+  <testcase name="selectionSortSortsCorrectly[64]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.093"/>
+  <testcase name="selectionSortLeavesArraySorted[64]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.087"/>
+  <testcase name="selectionSortSortsCorrectly[65]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.095"/>
+  <testcase name="selectionSortLeavesArraySorted[65]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.092"/>
+  <testcase name="selectionSortSortsCorrectly[66]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.099"/>
+  <testcase name="selectionSortLeavesArraySorted[66]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.1"/>
+  <testcase name="selectionSortSortsCorrectly[67]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.103"/>
+  <testcase name="selectionSortLeavesArraySorted[67]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.095"/>
+  <testcase name="selectionSortSortsCorrectly[68]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.106"/>
+  <testcase name="selectionSortLeavesArraySorted[68]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.099"/>
+  <testcase name="selectionSortSortsCorrectly[69]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.104"/>
+  <testcase name="selectionSortLeavesArraySorted[69]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.106"/>
+  <testcase name="selectionSortSortsCorrectly[70]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.127"/>
+  <testcase name="selectionSortLeavesArraySorted[70]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.111"/>
+  <testcase name="selectionSortSortsCorrectly[71]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.112"/>
+  <testcase name="selectionSortLeavesArraySorted[71]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.107"/>
+  <testcase name="selectionSortSortsCorrectly[72]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.131"/>
+  <testcase name="selectionSortLeavesArraySorted[72]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.114"/>
+  <testcase name="selectionSortSortsCorrectly[73]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.123"/>
+  <testcase name="selectionSortLeavesArraySorted[73]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.113"/>
+  <testcase name="selectionSortSortsCorrectly[74]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.136"/>
+  <testcase name="selectionSortLeavesArraySorted[74]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.123"/>
+  <testcase name="selectionSortSortsCorrectly[75]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.122"/>
+  <testcase name="selectionSortLeavesArraySorted[75]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.119"/>
+  <testcase name="selectionSortSortsCorrectly[76]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.126"/>
+  <testcase name="selectionSortLeavesArraySorted[76]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.134"/>
+  <testcase name="selectionSortSortsCorrectly[77]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.136"/>
+  <testcase name="selectionSortLeavesArraySorted[77]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.129"/>
+  <testcase name="selectionSortSortsCorrectly[78]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.138"/>
+  <testcase name="selectionSortLeavesArraySorted[78]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.135"/>
+  <testcase name="selectionSortSortsCorrectly[79]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.142"/>
+  <testcase name="selectionSortLeavesArraySorted[79]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.141"/>
+  <testcase name="selectionSortSortsCorrectly[80]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.138"/>
+  <testcase name="selectionSortLeavesArraySorted[80]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.159"/>
+  <testcase name="selectionSortSortsCorrectly[81]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.143"/>
+  <testcase name="selectionSortLeavesArraySorted[81]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.143"/>
+  <testcase name="selectionSortSortsCorrectly[82]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.154"/>
+  <testcase name="selectionSortLeavesArraySorted[82]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.142"/>
+  <testcase name="selectionSortSortsCorrectly[83]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.149"/>
+  <testcase name="selectionSortLeavesArraySorted[83]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.147"/>
+  <testcase name="selectionSortSortsCorrectly[84]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.151"/>
+  <testcase name="selectionSortLeavesArraySorted[84]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.149"/>
+  <testcase name="selectionSortSortsCorrectly[85]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.167"/>
+  <testcase name="selectionSortLeavesArraySorted[85]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.161"/>
+  <testcase name="selectionSortSortsCorrectly[86]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.182"/>
+  <testcase name="selectionSortLeavesArraySorted[86]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.16"/>
+  <testcase name="selectionSortSortsCorrectly[87]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.171"/>
+  <testcase name="selectionSortLeavesArraySorted[87]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.166"/>
+  <testcase name="selectionSortSortsCorrectly[88]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.17"/>
+  <testcase name="selectionSortLeavesArraySorted[88]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.174"/>
+  <testcase name="selectionSortSortsCorrectly[89]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.168"/>
+  <testcase name="selectionSortLeavesArraySorted[89]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.169"/>
+  <testcase name="selectionSortSortsCorrectly[90]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.174"/>
+  <testcase name="selectionSortLeavesArraySorted[90]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.174"/>
+  <testcase name="selectionSortSortsCorrectly[91]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.183"/>
+  <testcase name="selectionSortLeavesArraySorted[91]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.182"/>
+  <testcase name="selectionSortSortsCorrectly[92]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.183"/>
+  <testcase name="selectionSortLeavesArraySorted[92]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.18"/>
+  <testcase name="selectionSortSortsCorrectly[93]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.209"/>
+  <testcase name="selectionSortLeavesArraySorted[93]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.182"/>
+  <testcase name="selectionSortSortsCorrectly[94]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.199"/>
+  <testcase name="selectionSortLeavesArraySorted[94]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.191"/>
+  <testcase name="selectionSortSortsCorrectly[95]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.195"/>
+  <testcase name="selectionSortLeavesArraySorted[95]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.192"/>
+  <testcase name="selectionSortSortsCorrectly[96]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.201"/>
+  <testcase name="selectionSortLeavesArraySorted[96]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.203"/>
+  <testcase name="selectionSortSortsCorrectly[97]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.203"/>
+  <testcase name="selectionSortLeavesArraySorted[97]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.206"/>
+  <testcase name="selectionSortSortsCorrectly[98]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.212"/>
+  <testcase name="selectionSortLeavesArraySorted[98]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.206"/>
+  <testcase name="selectionSortSortsCorrectly[99]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.218"/>
+  <testcase name="selectionSortLeavesArraySorted[99]" classname="util.unittest.SelectionSortLargeArraysTest" time="0.218"/>
+</testsuite>
